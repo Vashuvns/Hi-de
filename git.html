@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            display: flex;
+            height: 100vh;
+          justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 400px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0,0,10px rgba(0,0,0,0.1);
+        }
+        .login-box{
+            padding: 40px;
+        }
+        h1{
+            text-align: center;
+            margin-top: 30px;
+            color: #333;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        .user-box{
+            position: relative;
+            margin-bottom:30px  ;
+        }
+        .user-box input{
+            width: 100%;
+            padding: 10px 0px;
+            font-size: 16px;
+            color:#333 ;
+            border: none;
+            border-bottom: 1px solid #333;
+            outline: none;
+            background: transparent;
+            transition: border-color 0.2s;
+        }
+    .user-box input:focus, .user-box input:valid{
+border-color: #1e87f0;
+    }
+    button{
+        background-color: #1e87f0;
+        color: #fff;
+        border: 0;
+        padding: 15px 120px;
+        margin-left: 15%;
+        margin-bottom: 13%;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="login-box">
+        <h1>Login</h1>
+        <form>
+            <div class="user-box">
+                <label>username</label>
+                <input type="text" name="username" id="">
+            </div>
+            <div class="user-box">
+                <label >password</label>
+                <input type="password" name="password" id="">
+            </div>
+        </form>
+    </div>
+    <button>Login</button>
+</div>
+</body>
+</html>
